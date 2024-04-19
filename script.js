@@ -75,9 +75,9 @@ document.querySelectorAll(".section-3-choice").forEach((e, index) => {
 });
 
 
-document.querySelectorAll(".detail").forEach((e, index) => {
-  e.addEventListener("click", () => {
-    document.querySelectorAll(".info").forEach(i => i.classList.remove("informed"));
-    document.querySelectorAll(".info")[index].classList.add("informed");
+document.querySelectorAll("summary").forEach(e => { 
+  e.addEventListener("click", (t) => {
+    document.querySelectorAll("details").forEach(i => i.removeAttribute("open"));
+    t.target.toggleAttribute("open");
   });
 });

@@ -55,9 +55,9 @@ section {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 80px 20px;
 }
 
 h1 {
@@ -68,23 +68,23 @@ h1 {
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 40px;
+  line-height: 48px;
+  margin-bottom: 32px;
   text-transform: uppercase;
 }
 
 h6 {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 700;
   color: var(--primary);
 }
 
 h3, p, a, button, input, summary {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 32px;
   letter-spacing: -0.011em;
 }
 
@@ -126,11 +126,11 @@ button {
 }
 
 .explore {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   border: 1px solid var(--black);
-  font-size: 50px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,13 +162,13 @@ button {
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 40px;
     margin-bottom: 20px;
   }
   
   h6 {
-    font-size: 30px;
+    font-size: 28px;
   }
   
   h3, p, a, button, input, summary {
