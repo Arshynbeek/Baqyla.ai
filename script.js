@@ -1,13 +1,3 @@
-window.addEventListener("scroll", function () {
-  const sections = document.querySelectorAll("section");
-  sections.forEach((section) => {
-    const rect = section.getBoundingClientRect();
-    if (rect.top <= 0 && rect.bottom >= 0) section.classList.add("sticky");
-    else section.classList.remove("sticky");
-  });
-});
-
-
 const data = [
   { img: "/public/images/people.svg", text: "People Counting" },
   { img: "/public/images/animal.svg", text: "Animal Detecting" },
@@ -71,13 +61,5 @@ document.querySelectorAll(".section-3-choice").forEach((e, index) => {
     document.getElementById("link2").textContent = link2;
     document.getElementById("link3").textContent = link3;
     document.getElementById("picture").src = img;
-  });
-});
-
-
-document.querySelectorAll("summary").forEach(e => { 
-  e.addEventListener("click", (t) => {
-    document.querySelectorAll("details").forEach(i => i.removeAttribute("open"));
-    t.target.toggleAttribute("open");
   });
 });

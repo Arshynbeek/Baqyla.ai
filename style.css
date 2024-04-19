@@ -41,13 +41,9 @@ body {
 }
 
 section {
-  position: relative;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   background-color: var(--bg);
-}
-
-.sticky {
   position: -webkit-sticky;
   position: sticky;
   overflow-y: auto;
@@ -62,7 +58,6 @@ section {
 
 h1 {
   text-align: center;
-  padding: 0.5vw 0;
   font-size: calc(15vw + 20px);
   color: var(--white);
 }
