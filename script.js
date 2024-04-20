@@ -1,3 +1,19 @@
+document.getElementById("open-btn").addEventListener("click", () => {
+  document.getElementById("menu").style.left = "0";
+  document.getElementById("menu").style.right = "0";
+});
+
+document.getElementById("close-btn").addEventListener("click", () => {
+  document.getElementById("menu").style.left = "100vw";
+  document.getElementById("menu").style.right = "-100vw";
+});
+
+document.querySelectorAll(".menu-link").forEach(e => e.addEventListener("click", () => {
+  document.getElementById("menu").style.left = "100vw";
+  document.getElementById("menu").style.right = "-100vw";
+}));
+
+
 const data = [
   { img: "/public/images/people.svg", text: "People Counting" },
   { img: "/public/images/animal.svg", text: "Animal Detecting" },
